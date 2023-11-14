@@ -169,6 +169,10 @@ header nav ul {
     height: 30vh;
 }
 
+.three_pics img:hover {
+    border: 3px ridge lightgrey;
+}
+
 .fourth {
     display: flex;
     flex-direction: column;
@@ -212,7 +216,11 @@ header nav ul {
 .six_pics img {
     width: 35vw;
     height: 30vh;
-    padding-bottom: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.six_pics img:hover {
+    border: 3px ridge lightgrey;
 }
 
 
@@ -257,4 +265,113 @@ header nav ul {
     line-height: 3.5vh;
     padding-top: 3vh;
     font-family: Merri_R;
+}
+
+/* -------Section_Member-------- */
+
+.member {
+    background-color: #55ACEE1A;
+    margin-left: 26vw;
+    width: 25vw;
+    margin-top: 32vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member h2 {
+
+    padding-top: 4vh;
+    padding-bottom: 6vh;
+    text-align: center;
+    width: 51vw;
+    font-size: 1.5rem;
+    font-family: Merri_B;
+}
+
+.fiftyseven {
+    font-family: Merri_B;
+    font-size: 5rem;
+    padding-bottom: 3vh;
+}
+
+.year {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #7E7E7E;
+    font-family: Merri_R;
+}
+
+.member ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Merri_R;
+    margin-bottom: 2vh;
+}
+
+.B_member {
+    Background-color: #55ACEE;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border-style: none;
+    padding: 15px 50px;
+    margin-bottom: 5vh;
+}
+
+.B_member a {
+    color: white;
+}
+
+/* ----------footer------------ */
+.any {
+    padding-left: 6vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.any h2 {
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-family: Merri_B;
+}
+
+.mail {
+    font-size: 1.2rem;
+    padding-top: 2vh;
+    color: #7E7E7E;
+    font-family: Merri_R;
+}
+
+.super {
+    font-size: 1.2rem;
+    padding-top: 2vh;
+    font-family: Merri_R;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 5.5vw;
+}
+
+footer li a {
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: Merri_R;
+    font-size: 1.3rem;
+}
+
+.ig a {
+    color: #FCAF45;
+}
+
+.tw a {
+    color: #55ACEE;
+}
+
+.yt a {
+    color: #C4302B;
 }
