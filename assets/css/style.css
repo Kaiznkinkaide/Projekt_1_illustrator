@@ -23,61 +23,52 @@
 
 /* -------------Global--------------- */
 
+main {
+    margin-top: 7vh;
+    margin-left: 20vh;
+}
+
 
 a {
     color: #202020;
     padding: 5px;
 }
 
-h2 {
-    padding-right: 17vw;
-    font-size: 48px;
-    font-family: Merri_B;
-}
-
-p {
-    font-size: 19.2px;
-    font-family: Merri_R;
-    padding-right: 22vw;
-}
-
 /* -------------Navigation----------- */
-
-
-
-header nav {
-    margin-top: 20px;
-    height: 36.23px;
-}
 
 header nav ul {
     font-family: Lato;
-    font-size: 19.2px;
-    padding-right: 10px;
+    font-size: 1.2rem;
+    padding-right: 1vw;
+    padding-top: 1vw;
     display: flex;
     justify-content: flex-end;
 }
 
 /* -----------Section_first------------ */
-
-#giphy {
-    padding: 30vh;
-    width: 500px;
-    background: url("../img/illustration1.gif") center/contain no-repeat;
-}
-
-img {
-
-    width: 100%;
-}
-
-main {
-    margin-top: 70px;
-    margin-left: 140px;
-}
-
 .first {
     display: flex;
+    justify-content: space-between;
+}
+
+
+
+.first h2 {
+    width: 39vw;
+    font-size: 3rem;
+    font-family: Merri_B;
+}
+
+.first p {
+    width: 28vw;
+    line-height: 3vh;
+    padding-top: 2vh;
+    font-family: Merri_R;
+}
+
+.giphy img {
+    height: 49vh;
+    width: 25vw;
 }
 
 #Buttons {
@@ -108,3 +99,59 @@ main {
 }
 
 /* ----------Section_second----------- */
+
+
+.second {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7vw;
+}
+
+.face img {
+    height: 49vh;
+    width: 25vw;
+}
+
+.second h2 {
+    width: 500px;
+    height: 120px;
+    font-size: 48px;
+    font-family: Merri_B;
+}
+
+.second article p {
+    width: 29vw;
+    height: 30vw;
+    line-height: 3.5vh;
+    padding-top: 3vh;
+    font-family: Merri_R;
+}
+
+/* ---------Secton_third--------- */
+
+.third {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third h2 {
+    width: 30vw;
+    font-size: 3rem;
+    font-family: Merri_B;
+}
+
+.third p {
+    width: 29vw;
+    height: 30vw;
+    line-height: 3.5vh;
+    padding-top: 3vh;
+    font-family: Merri_R;
+}
+
+.fish img {
+    height: 49vh;
+    width: 38vw;
+    padding-right: 10vw;
+}
