@@ -21,12 +21,29 @@
     src: url("../fonts/Lato/Lato-Regular.ttf");
 }
 
-/* -------------Navigation----------- */
+/* -------------Global--------------- */
+
 
 a {
     color: #202020;
     padding: 5px;
 }
+
+h2 {
+    padding-right: 17vw;
+    font-size: 48px;
+    font-family: Merri_B;
+}
+
+p {
+    font-size: 19.2px;
+    font-family: Merri_R;
+    padding-right: 22vw;
+}
+
+/* -------------Navigation----------- */
+
+
 
 header nav {
     margin-top: 20px;
@@ -40,3 +57,54 @@ header nav ul {
     display: flex;
     justify-content: flex-end;
 }
+
+/* -----------Section_first------------ */
+
+#giphy {
+    padding: 30vh;
+    width: 500px;
+    background: url("../img/illustration1.gif") center/contain no-repeat;
+}
+
+img {
+
+    width: 100%;
+}
+
+main {
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.first {
+    display: flex;
+}
+
+#Buttons {
+    padding-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#B_download {
+    font-family: Merri_R;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border-style: none;
+    margin-right: 10px;
+}
+
+#B_subscribe {
+    font-family: Merri_R;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border-style: none;
+    margin-right: 10px;
+    border: 0.5px solid lightgrey;
+
+}
+
+/* ----------Section_second----------- */
