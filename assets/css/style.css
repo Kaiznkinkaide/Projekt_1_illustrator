@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: Merri_R;
+    src: url("../fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: Merri_B;
+    src: url("../fonts/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+/* -------------Navigation----------- */
+
+a {
+    color: #202020;
+    padding: 5px;
+}
+
+header nav {
+    margin-top: 20px;
+    height: 36.23px;
+}
+
+header nav ul {
+    font-family: Lato;
+    font-size: 19.2px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
